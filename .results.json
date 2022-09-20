@@ -5,9 +5,9 @@
     "passes": 13,
     "pending": 0,
     "failures": 0,
-    "start": "2022-09-20T16:09:48.264Z",
-    "end": "2022-09-20T16:09:48.463Z",
-    "duration": 199
+    "start": "2022-09-20T16:12:22.541Z",
+    "end": "2022-09-20T16:12:22.741Z",
+    "duration": 200
   },
   "tests": [
     {
@@ -55,7 +55,7 @@
     {
       "title": "returns the distance traveled in feet",
       "fullTitle": "index.js distanceTraveledInFeet() returns the distance traveled in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -150,7 +150,7 @@
     {
       "title": "returns the distance traveled in feet",
       "fullTitle": "index.js distanceTraveledInFeet() returns the distance traveled in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },

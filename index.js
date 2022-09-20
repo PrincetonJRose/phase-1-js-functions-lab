@@ -7,19 +7,14 @@ const distanceTraveledInFeet = ( location1, location2 ) => Math.abs( location1 -
 
 const calculatesFarePrice = ( location1, location2 ) => {
     let distance = distanceTraveledInFeet( location1, location2 )
-    let price
 
     switch ( true ) {
         case distance > 400 && distance <= 2000 :
-            price = ( distance - 400 ) * .02
-            break
+            return ( distance - 400 ) * .02
         case distance > 2000 && distance <= 2500 :
-            price = 25
-            break
+            return 25
         case distance > 2500 :
-            price = "cannot travel that far"
-            break
-        default : price = 0
+            return "cannot travel that far"            
+        default : return 0
     }
-    return price
 }
